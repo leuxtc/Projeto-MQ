@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+:root {
+    --color0: #710080;
+    --color2: #61bdbf;
+    --color1: #6ed3cc;
+    --color3: #5ec7b4;
+}
+
+body, html {
+    background-color: var(--color0);
+}
+
+form {
+    position: relative;
+
+    margin: auto;
+    top: 20px;
+    padding: 5px;
+    
+    text-align: center;
+    font-size: .8em;
+
+    width: 230px;
+    height: 510px;
+    
+
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.505);
+}
+
+img {    
+    position: relative;
+    width: 240px;
+    height: 200px;
+
+    top: -5px;
+    left: -5px;
+
+    border-radius: 15px 15px 0px 0px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+p {
+    margin: 10px;
+    font-size: .9em;
+    text-align: justify;
+}
+
+div {
+    margin: 6px;
+}
+
+div#nome, div#senha {
+    font-size: .9em;
+    color: whitesmoke;
+    
+    border-radius: 9px;
+    background-color: var(--color0);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.197);
+}
+
+span.material-symbols-outlined {
+    position: relative;
+    top: 8px;
+
+    font-size: 30px;
+}
+
+.material-symbols-outlined#icon {
+    top: -30px;
+    left: 70px;
+    font-size: 20px;
+}
+
+input#inome, input#isenha {
+    position: relative;
+    
+    text-align: center;
+    
+    border: 0px;
+    border-radius: 12px 10px 0px 0px;
+    width: 170px;
+    height: 40px;
+    
+    background-color: var(--color1);
+}
+
+input#inome:hover, input#isenha:hover {
+    background-color: var(--color3);
+}
+
+input#entrar, input#esenha {
+    position: relative;
+    
+    width: 200px;
+    height: 40px;
+    
+    border: 0px ;
+    border-radius: 9px;
+
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.197);
+}
+
+input#entrar {
+    margin-top: 5px;
+    background-color: var(--color1);
+}
+
+input#entrar:hover {
+    background-color: var(--color3);
+    cursor: pointer;
+}
+
+input#esenha {
+    border: solid 1px var(--color1);
+}
+
+input#esenha:hover {
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    background-color: var(--color2);
+}

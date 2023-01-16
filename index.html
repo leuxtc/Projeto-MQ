@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <form action="#">
+        <img src="pexels-anni-roenkae-3109807.jpg" alt="Imagem">
+        <h1>Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <div id="nome"> 
+            <label for="inome"><span class="material-symbols-outlined">person</span></label>
+            <input id="inome" type="email" required placeholder="Seu email">
+        </div>
+        <div id="senha">
+            <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+            <input id="isenha" type="password" required minlength="8" placeholder="Senha">
+        </div>
+        <div><input id="entrar" type="submit" value="Entrar"></div>
+        <div><input id="esenha" type="reset" value="Esqueci a senha"><span class="material-symbols-outlined"  id="icon">email</span></div>
+    </form>
+</body>
+</html>
