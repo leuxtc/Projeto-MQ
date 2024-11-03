@@ -12,6 +12,8 @@
 ### de 992px pra mais
 ![Captura de tela 2024-11-03 173259](https://github.com/user-attachments/assets/aacdac43-2f35-445d-87a0-07695eaa262a)
 
+### [Link para o site](https://leuxtc.github.io/Projeto-MQ/)
+
 ## Referência:
 
 [Curso HTML5 e CSS3 - Módulo 4 de 5](https://youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&si=kbci_fHWLXI2Dirn)
